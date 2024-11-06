@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #f35a32;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Sección de bienvenida */
+#bienvenida {
+    padding: 40px 20px;
+    background-color: #f7f0e2;
+    color: #333;
+}
+
+.imagen-bienvenida {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Sección de actividades */
+#actividades {
+    padding: 40px 20px;
+    background-color: #fff3e4;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.card h3 {
+    color: #f35a32;
+    font-size: 1.4em;
+}
+
+.card p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+    color: #666;
+}
+
+.card ul li::before {
+    content: "•";
+    color: #f35a32;
+    position: absolute;
+    left: 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #f35a32;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
